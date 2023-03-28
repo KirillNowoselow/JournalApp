@@ -10,7 +10,7 @@ namespace JournalApp.ViewModels
 {
     internal class MainWindowViewModel: ViewModel
     {
-        private string title;
+        private string title = "УП наше крутое";
 
         /// <summary>Заголовок окна </summary>
         
