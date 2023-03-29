@@ -55,6 +55,7 @@
                     <GridSplitter Grid.Column="0" Grid.RowSpan="2"
                                   HorizontalAlignment="Right"
                                   Width="3"/>
+                    <
                 </Grid>
             </TabItem>
             <TabItem Header="Вкладка 2">
