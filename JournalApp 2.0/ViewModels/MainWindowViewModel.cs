@@ -16,7 +16,6 @@ namespace JournalApp.ViewModels
 
         /// <summary>Заголовок окна </summary>
 
-
         #region Команды
 
         public ICommand CloseApplicationCommand { get; }

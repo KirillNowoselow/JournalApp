@@ -30,7 +30,7 @@
             </StatusBarItem>
             <StatusBarItem>
                 <ProgressBar Width="121" Height="23" Value="12">
-   
+
                 </ProgressBar>
             </StatusBarItem>
         </StatusBar>
@@ -38,38 +38,23 @@
             <TabItem>
                 <TabItem.Header>
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Вкладка 1"/> 
+                        <TextBlock Text="Вкладка 1"/>
                     </StackPanel>
                 </TabItem.Header>
                 <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="157*"/>
-                        <ColumnDefinition Width="637*"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="157*"/>
-                        <RowDefinition Height="637*"/>
-                    </Grid.RowDefinitions>
-                    <Rectangle Grid.Column="0"
-                               Grid.Row="0"
-                               Fill="LightBlue"
-                               Stroke="Blue"
-                               StrokeThickness="5"
-                               RadiusX="10"
-                               RadiusY="14"/>
-                    <Ellipse Grid.Column="1"
-                             Grid.Row="0"
-                             Fill="Orange"
-                             Stroke="Violet"
-                             StrokeThickness="5"/>
-                    <GridSplitter Grid.Column="0" Grid.RowSpan="2"
-                                  HorizontalAlignment="Right"
-                                  Width="3"/>
-                    
+                    <Label Content="g(год)" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="113"/>
+                    <TextBox HorizontalAlignment="Left" Margin="10,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+                    <Label Content="m(порядковый номер месяца)" HorizontalAlignment="Left" Margin="10,59,0,0" VerticalAlignment="Top" Width="178"/>
+                    <TextBox HorizontalAlignment="Left" Margin="10,90,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+                    <Label Content="n(число)" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top" Width="113"/>
+                    <TextBox HorizontalAlignment="Left" Margin="10,139,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+                    <Label Content="Дата следующего дня" HorizontalAlignment="Left" Margin="10,162,0,0" VerticalAlignment="Top" Width="142"/>
+                    <TextBox HorizontalAlignment="Left" Margin="10,193,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+
                 </Grid>
             </TabItem>
             <TabItem Header="Вкладка 2">
-                
+
             </TabItem>
         </TabControl>
     </DockPanel>
